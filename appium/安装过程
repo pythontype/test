@@ -1,0 +1,15 @@
+1、需要先安装python
+    安装地址：https://www.python.org/
+2、安装selenium
+    先更新pip版本：python -m pip install—upgrade pip
+    安装命令：pip install selenium
+3、下载浏览器驱动
+    不同的浏览器对应不同的规范，想要驱动不同的浏览器，必须单独下载不同并设置不同的浏览器驱动
+    chrome驱动：https://chromedriver.storage.googleapis.com/index.html?path=77.0.3865.40/
+    其他驱动：http://www.testclass.net/selenium_python/selenium3-browser-driver
+    
+    验证驱动安装：from selenium import webdriver
+                 
+                 driver = webdriver.Chrome()
+ 
+    
