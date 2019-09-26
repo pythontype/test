@@ -1,0 +1,34 @@
+1、简介
+是一个自动化测试开源工具；支持跨平台，运行在不同平台（ios、android）使用同一套API来写自动化测试脚本
+
+2、appium与selenium
+appium类库封装了标准的selenium客户端库，为永华提供常见的json格式selenium明亮以及额外的移动设备控制命令
+appium客户端类库了一个标准协议的官方扩展草稿和一个传输不可预知的自动化协议的元素
+      Mobile JSON Wire Protocol（一个标准协议的官方扩展草稿）和W3C WebDriver spec（一个传输不可预知的自动化协议，该协议定义了MultiAction 接口）
+appium服务端定义了官方协议的扩展，而appium是封装扩展的selenium库，所以需要安装appium特定的客户端，同时又支持通用的selenium会话
+
+3、支持多平台、多语言
+appium选择了(客户端/服务器）的设计模式，只要客户端能发送http请求给服务器，那么客户端用什么语言实现都可以
+appium扩展了webdriver（selenium）的协议，所以以前的webdriver API能够直接被继承过来
+
+4、appium工作原理
+appium—client（客户端）：java_client、python_client、ruby_cli
+   ||
+   ||
+appium-server(服务器)：appium.amg、appiumFor Window.zip
+   ||
+   ||
+移动设备：android模拟器、android真机、ios真机
+
+首先，appium针对主流语言开发有对应的appium库，可以支持不同语言编写脚本
+其次，appium针对多平台，包括mac和windows。它针对这两大平台开发了appium——server
+最后，appium又同时支持android和ios两个操作系统。
+所以appium非常灵活
+
+5、安装需求
+ 编程语言
+ appium client
+ appium server
+ 测试运行环境
+ 
+
