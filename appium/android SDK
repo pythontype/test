@@ -1,0 +1,15 @@
+安装android SDK
+   android SDK （Software Developent Kit,软件开发工具包）提供了Android API库和开发工具构建，测试和调试应用程序。
+   
+下载android sdk
+http://tools.android-studio.org/index.php/sdk
+解压===》设置环境变量（在系统变量path中添加路径）
+
+安装android版本
+双击sdk manage.exe启动SDK管理器
+安装android虚拟机：http://www.androiddevtools.cn/
+
+双击 avd manage.exe启动AVD管理器
+点击“create……”按钮，创建android虚拟机
+不要选择超过电脑分分辨率的device，填写其他参数，点击ok创建完成   （http://www.testclass.net/appium_base/appium-base-sdk）
+咋样 AVD manage工具中选中创建的Android虚拟机，点击“start……”按钮启动
