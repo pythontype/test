@@ -1,0 +1,11 @@
+python-client的项目名称叫 ：appium——python-client
+
+pip安装：pip install appium-python-client
+
+运行第一个appium测试
+第一步：启动andriod模拟器
+第二步：启动appium server
+       点击sppium server右上角三角形，注意启动日志
+       appium在启动默认占本机的4723端口，
+第三步：编写appium测试脚本
+       运行测试脚本
