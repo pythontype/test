@@ -1,0 +1,45 @@
+Desired Capabilities
+Desired Capabilities 在启动 session 的时候是必须提供的。
+
+Desired Capabilities 本质上是以 key value 字典的方式存放，客户端将这些键值对发给服务端，告诉服务端我们想要怎么测试。
+它告诉 appium Server这样一些事情：
+
+本次测试是启动浏览器还是启动移动设备。
+
+是启动Andorid还是启动iOS。
+
+启动Android时，app的package是什么。
+
+启动Android时，app的activity是什么。
+
+...
+
+Desired Capabilities 配置
+Appium 的 Desired Capabilities 基本配置如下：
+
+
+DesiredCapabilities capabilities = new DesiredCapabilities();
+capabilities.setCapability("deviceName", "Android Emulator");
+capabilities.setCapability("automationName", "Appium");
+capabilities.setCapability("platformName", "Android");
+capabilities.setCapability("platformVersion", "5.1");
+capabilities.setCapability("appPackage", "com.android.calculator2");
+capabilities.setCapability("appActivity", ".Calculator");
+
+WebDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+
+deviceName：启动哪种设备，是真机还是模拟器？iPhone Simulator，iPad Simulator，iPhone Retina 4-inch，Android Emulator，Galaxy S4...
+
+automationName：使用哪种自动化引擎。appium（默认）还是Selendroid。
+
+platformName：使用哪种移动平台。iOS, Android, orFirefoxOS。
+
+platformVersion：指定平台的系统版本。例如指的Android平台，版本为5.1。
+
+appActivity：待测试的app的Activity名字。比如MainActivity、.Settings。注意，原生app的话要在activity前加个"."。
+
+appPackage：待测试的app的Java package。比如com.example.android.myApp, com.android.settings
+
+
+
+更多的参数：https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/caps.md
