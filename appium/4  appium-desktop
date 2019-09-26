@@ -1,0 +1,7 @@
+appium 移动测试中有个很重心的组件appium-server，主要用来监听我们的移动设备，然后将不同编程语言编写的appium测试脚本
+进行解析，驱动移动设备运行测试
+
+但appium-server有很久没有跟新了，所以app_desktop就是新工具
+
+下载:https://github.com/appium/appium-desktop/releases
+
