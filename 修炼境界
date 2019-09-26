@@ -1,0 +1,14 @@
+1、炼体
+ 测试基础概念：测试流程与生命周期、测试计划的制订、测试用例的设计、缺陷分级与管理、缺陷平台的搭建与使用、测试报告的撰写
+ linux：系统的安装、常用指令、日志分析、测试环境搭建
+ mysql：mysql环境搭建、增删改查、关联查询、存储过程
+2、炼气
+ 接口测试的基本原理：接口原理、http/https网络协议、cookie、token
+ 抓包工具：chrome开发者工具、wireshark、fidder、手机抓包
+ 接口测试工具：postman、soapU、jmeter
+ 接口测试进阶：java+httpclient接口自动化、python+requests接口自动化
+3、先天
+ 自动化基础：自动化测试原理、自动化分层
+ robotframework：rf特点与简介、rf环境搭建、rf常用关键字、rf常用快捷键、rf测试实操
+ app自动化：appium简介、appium环境搭建、sdk使用、app界面元素操作、appium+robotframework、appium+pythom、appium+java
+ webui自动化：selenium+webdriver原理、web前端html+css技术、web元素定位、js执行器
